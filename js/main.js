@@ -32,7 +32,7 @@ function fsetRBG() {
     let setRBG = setInterval(() => {
         let randomIndex = Math.trunc(Math.random()*5);
         pageLanding.style.cssText = 
-        `background-image: url("../imgaes/image${randomIndex + 1}.jpg");`;
+        `background-image: url("./imgaes/image${randomIndex + 1}.jpg");`;
     }, 10000);
     clickCheck(setRBG);
 }
