@@ -947,11 +947,9 @@ ul.bullets li.bullet a:hover::before{
 /* Start Footer */
 .footer{
     background-color: var(--main-color);
+    padding: 15px;
     font-weight: bold;
-    font-size: 22px;
     text-align: center;
-    height: 50px;
-    line-height: 50px;
     color: white;
 }
 /* End Footer */
